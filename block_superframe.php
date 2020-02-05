@@ -55,6 +55,7 @@ class block_superframe extends block_base {
      */
     function init() {
         $this->title = get_string('pluginname', 'block_superframe');
+        $this->content->text .= get_string('message', 'block_superframe');
     }
 
     /**
